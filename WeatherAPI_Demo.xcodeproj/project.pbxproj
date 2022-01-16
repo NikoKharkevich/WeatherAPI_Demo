@@ -14,6 +14,8 @@
 		C02682012794B039006AB0F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02682002794B039006AB0F8 /* Assets.xcassets */; };
 		C02682042794B039006AB0F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02682022794B039006AB0F8 /* LaunchScreen.storyboard */; };
 		C02682112794B181006AB0F8 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02682102794B181006AB0F8 /* AlertController.swift */; };
+		C02682132794BDE7006AB0F8 /* NetworkWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02682122794BDE7006AB0F8 /* NetworkWeatherManager.swift */; };
+		C02682152794BF17006AB0F8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02682142794BF17006AB0F8 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		C02682032794B039006AB0F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C02682052794B039006AB0F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C02682102794B181006AB0F8 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		C02682122794BDE7006AB0F8 /* NetworkWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWeatherManager.swift; sourceTree = "<group>"; };
+		C02682142794BF17006AB0F8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 				C02682002794B039006AB0F8 /* Assets.xcassets */,
 				C02681F72794B037006AB0F8 /* AppDelegate.swift */,
 				C02681F92794B037006AB0F8 /* SceneDelegate.swift */,
+				C02682142794BF17006AB0F8 /* Constants.swift */,
 			);
 			path = Supporting;
 			sourceTree = "<group>";
@@ -98,6 +103,7 @@
 		C026820E2794B07E006AB0F8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C02682122794BDE7006AB0F8 /* NetworkWeatherManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -183,8 +189,10 @@
 			files = (
 				C02682112794B181006AB0F8 /* AlertController.swift in Sources */,
 				C02681FC2794B037006AB0F8 /* ViewController.swift in Sources */,
+				C02682132794BDE7006AB0F8 /* NetworkWeatherManager.swift in Sources */,
 				C02681F82794B037006AB0F8 /* AppDelegate.swift in Sources */,
 				C02681FA2794B037006AB0F8 /* SceneDelegate.swift in Sources */,
+				C02682152794BF17006AB0F8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

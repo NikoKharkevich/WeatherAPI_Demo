@@ -12,12 +12,15 @@ class ViewController: UIViewController {
     var networkWeatherManaber = NetworkWeatherManager()
     
     @IBAction func searchPressed(_ sender: UIButton) {
-        self.presentSearchAlertController(withTitle: "Enter city name", message: nil, style: .alert)
+        presentSearchAlertController(withTitle: "Enter city name", message: nil, style: .alert) { city in
+            self.networkWeatherManaber.fetchCurrentWeather(forCity: city)
+        }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         networkWeatherManaber.fetchCurrentWeather(forCity: "London")
+        self.networkWeatherManaber.fetchCurrentWeather(forCity: "Moscow")
     }
 }
 

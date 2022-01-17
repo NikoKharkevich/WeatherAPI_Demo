@@ -21,19 +21,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Zjh-XY-7pK">
-                                <rect key="frame" x="316" y="811" width="81.666666666666686" height="31"/>
+                                <rect key="frame" x="242" y="790.33333333333337" width="152" height="51.666666666666629"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ufa" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CaG-8N-Smf">
-                                        <rect key="frame" x="0.0" y="0.0" width="43.666666666666664" height="31"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="London" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CaG-8N-Smf">
+                                        <rect key="frame" x="0.0" y="0.0" width="94" height="51.666666666666664"/>
                                         <color key="tintColor" name="infoColor"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="28"/>
                                         <color key="textColor" name="infoColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lui-e4-xCD">
-                                        <rect key="frame" x="51.666666666666686" y="0.99999999999999822" width="30" height="29.666666666666664"/>
+                                        <rect key="frame" x="102" y="0.99999999999999645" width="50" height="50.333333333333329"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="30" id="UNj-tF-OdY"/>
+                                            <constraint firstAttribute="width" constant="50" id="UNj-tF-OdY"/>
                                             <constraint firstAttribute="width" secondItem="Lui-e4-xCD" secondAttribute="height" multiplier="30:31" id="tS5-ml-ICd"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -103,7 +103,7 @@
                         <constraints>
                             <constraint firstItem="voP-iF-iac" firstAttribute="leading" secondItem="CQJ-ML-uYT" secondAttribute="leading" id="4Bi-eA-qB9"/>
                             <constraint firstItem="CQJ-ML-uYT" firstAttribute="trailing" secondItem="voP-iF-iac" secondAttribute="trailing" id="BBz-TQ-8z7"/>
-                            <constraint firstItem="CQJ-ML-uYT" firstAttribute="trailing" secondItem="Zjh-XY-7pK" secondAttribute="trailing" constant="16.5" id="E04-nW-1I9"/>
+                            <constraint firstItem="CQJ-ML-uYT" firstAttribute="trailing" secondItem="Zjh-XY-7pK" secondAttribute="trailing" constant="20" id="E04-nW-1I9"/>
                             <constraint firstItem="CQJ-ML-uYT" firstAttribute="bottom" secondItem="Zjh-XY-7pK" secondAttribute="bottom" constant="20" id="HXi-Qy-vBI"/>
                             <constraint firstAttribute="bottom" secondItem="voP-iF-iac" secondAttribute="bottom" id="YBk-9B-8k3"/>
                             <constraint firstItem="c8Z-yv-41O" firstAttribute="top" secondItem="CQJ-ML-uYT" secondAttribute="top" constant="20" id="gVu-fR-YW5"/>

@@ -16,6 +16,7 @@
 		C02682112794B181006AB0F8 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02682102794B181006AB0F8 /* AlertController.swift */; };
 		C02682132794BDE7006AB0F8 /* NetworkWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02682122794BDE7006AB0F8 /* NetworkWeatherManager.swift */; };
 		C02682152794BF17006AB0F8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02682142794BF17006AB0F8 /* Constants.swift */; };
+		C026821727955D86006AB0F8 /* CurrentWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C026821627955D86006AB0F8 /* CurrentWeatherData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C02682102794B181006AB0F8 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		C02682122794BDE7006AB0F8 /* NetworkWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWeatherManager.swift; sourceTree = "<group>"; };
 		C02682142794BF17006AB0F8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C026821627955D86006AB0F8 /* CurrentWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				C02682122794BDE7006AB0F8 /* NetworkWeatherManager.swift */,
+				C026821627955D86006AB0F8 /* CurrentWeatherData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				C02682132794BDE7006AB0F8 /* NetworkWeatherManager.swift in Sources */,
 				C02681F82794B037006AB0F8 /* AppDelegate.swift in Sources */,
 				C02681FA2794B037006AB0F8 /* SceneDelegate.swift in Sources */,
+				C026821727955D86006AB0F8 /* CurrentWeatherData.swift in Sources */,
 				C02682152794BF17006AB0F8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

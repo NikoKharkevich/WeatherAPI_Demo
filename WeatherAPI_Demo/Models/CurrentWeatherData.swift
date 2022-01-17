@@ -1,12 +1,7 @@
-//
-//  CurrentWeatherData.swift
-//  WeatherAPI_Demo
-//
-//  Created by Nikola Kharkevich on 17.01.2022.
-//
 
 import Foundation
 
+// модель для получения данных из JSON
 struct CurrentWeatherData: Codable {
     let name: String
     let main: Main

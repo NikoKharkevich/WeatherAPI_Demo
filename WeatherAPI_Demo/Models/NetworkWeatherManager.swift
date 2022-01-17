@@ -7,10 +7,15 @@
 
 import Foundation
 
-struct NetworkWeatherManager {
+// для контроля утечек памяти лучше переделать NetworkWeatherManager со структуры на класс и протокол подписать под class/ AnyObject (значит будет использоваться только классами)
+protocol NetworkWeatherManagerDelegate: AnyObject {
+    func updateUI(_: NetworkWeatherManager, with currentWeather: CurrentWeather)
+}
+
+class NetworkWeatherManager {
     
-    var onCompletion: ((CurrentWeather) -> Void)?
-    
+    weak var delegate: NetworkWeatherManagerDelegate?
+        
     func fetchCurrentWeather(forCity city: String) {
         
         let urlString = "https://api.openweathermap.org/data/2.5/weather?q=\(city)&apikey=\(K.apiKey)"
@@ -19,7 +24,7 @@ struct NetworkWeatherManager {
         let task = session.dataTask(with: url) { data, response, error in
             if let data = data {
                 if let currentWeather = self.parseJSON(withData: data) {
-                    self.onCompletion?(currentWeather)
+                    self.delegate?.updateUI(self, with: currentWeather)
                 }
             }
         }
